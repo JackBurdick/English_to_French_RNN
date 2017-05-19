@@ -12554,7 +12554,7 @@ Default GPU Device: /gpu:0
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
-<span class="n">epochs</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">epochs</span> <span class="o">=</span> <span class="mi">4</span>
 <span class="c1"># Batch Size</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">512</span>
 <span class="c1"># RNN Size</span>
@@ -12723,40 +12723,51 @@ Default GPU Device: /gpu:0
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Epoch   0 Batch    0/269 - Train Accuracy:  0.242, Validation Accuracy:  0.310, Loss:  5.866
-Epoch   0 Batch   25/269 - Train Accuracy:  0.334, Validation Accuracy:  0.394, Loss:  2.859
-Epoch   0 Batch   50/269 - Train Accuracy:  0.425, Validation Accuracy:  0.468, Loss:  2.228
-Epoch   0 Batch   75/269 - Train Accuracy:  0.436, Validation Accuracy:  0.453, Loss:  1.548
-Epoch   0 Batch  100/269 - Train Accuracy:  0.539, Validation Accuracy:  0.537, Loss:  0.979
-Epoch   0 Batch  125/269 - Train Accuracy:  0.566, Validation Accuracy:  0.561, Loss:  0.744
-Epoch   0 Batch  150/269 - Train Accuracy:  0.593, Validation Accuracy:  0.592, Loss:  0.667
-Epoch   0 Batch  175/269 - Train Accuracy:  0.642, Validation Accuracy:  0.656, Loss:  0.611
-Epoch   0 Batch  200/269 - Train Accuracy:  0.646, Validation Accuracy:  0.659, Loss:  0.552
-Epoch   0 Batch  225/269 - Train Accuracy:  0.671, Validation Accuracy:  0.683, Loss:  0.485
-Epoch   0 Batch  250/269 - Train Accuracy:  0.691, Validation Accuracy:  0.689, Loss:  0.440
-Epoch   1 Batch    0/269 - Train Accuracy:  0.689, Validation Accuracy:  0.725, Loss:  0.420
-Epoch   1 Batch   25/269 - Train Accuracy:  0.742, Validation Accuracy:  0.756, Loss:  0.372
-Epoch   1 Batch   50/269 - Train Accuracy:  0.786, Validation Accuracy:  0.803, Loss:  0.308
-Epoch   1 Batch   75/269 - Train Accuracy:  0.842, Validation Accuracy:  0.821, Loss:  0.242
-Epoch   1 Batch  100/269 - Train Accuracy:  0.860, Validation Accuracy:  0.835, Loss:  0.204
-Epoch   1 Batch  125/269 - Train Accuracy:  0.888, Validation Accuracy:  0.864, Loss:  0.164
-Epoch   1 Batch  150/269 - Train Accuracy:  0.863, Validation Accuracy:  0.870, Loss:  0.143
-Epoch   1 Batch  175/269 - Train Accuracy:  0.886, Validation Accuracy:  0.890, Loss:  0.133
-Epoch   1 Batch  200/269 - Train Accuracy:  0.898, Validation Accuracy:  0.884, Loss:  0.105
-Epoch   1 Batch  225/269 - Train Accuracy:  0.895, Validation Accuracy:  0.920, Loss:  0.092
-Epoch   1 Batch  250/269 - Train Accuracy:  0.926, Validation Accuracy:  0.917, Loss:  0.087
-Epoch   2 Batch    0/269 - Train Accuracy:  0.920, Validation Accuracy:  0.917, Loss:  0.085
-Epoch   2 Batch   25/269 - Train Accuracy:  0.913, Validation Accuracy:  0.916, Loss:  0.078
-Epoch   2 Batch   50/269 - Train Accuracy:  0.909, Validation Accuracy:  0.927, Loss:  0.083
-Epoch   2 Batch   75/269 - Train Accuracy:  0.932, Validation Accuracy:  0.927, Loss:  0.067
-Epoch   2 Batch  100/269 - Train Accuracy:  0.944, Validation Accuracy:  0.935, Loss:  0.063
-Epoch   2 Batch  125/269 - Train Accuracy:  0.938, Validation Accuracy:  0.933, Loss:  0.057
-Epoch   2 Batch  150/269 - Train Accuracy:  0.938, Validation Accuracy:  0.929, Loss:  0.057
-Epoch   2 Batch  175/269 - Train Accuracy:  0.932, Validation Accuracy:  0.934, Loss:  0.070
-Epoch   2 Batch  200/269 - Train Accuracy:  0.948, Validation Accuracy:  0.944, Loss:  0.047
-Epoch   2 Batch  225/269 - Train Accuracy:  0.927, Validation Accuracy:  0.945, Loss:  0.049
-Epoch   2 Batch  250/269 - Train Accuracy:  0.946, Validation Accuracy:  0.926, Loss:  0.046
-Epoch   2 Batch  267/269 - Train Accuracy:  0.953, Validation Accuracy:  0.948, Loss:  0.049
+<pre>Epoch   0 Batch    0/269 - Train Accuracy:  0.242, Validation Accuracy:  0.310, Loss:  5.875
+Epoch   0 Batch   25/269 - Train Accuracy:  0.368, Validation Accuracy:  0.425, Loss:  2.782
+Epoch   0 Batch   50/269 - Train Accuracy:  0.468, Validation Accuracy:  0.512, Loss:  2.212
+Epoch   0 Batch   75/269 - Train Accuracy:  0.552, Validation Accuracy:  0.564, Loss:  1.713
+Epoch   0 Batch  100/269 - Train Accuracy:  0.605, Validation Accuracy:  0.599, Loss:  1.402
+Epoch   0 Batch  125/269 - Train Accuracy:  0.602, Validation Accuracy:  0.608, Loss:  1.032
+Epoch   0 Batch  150/269 - Train Accuracy:  0.613, Validation Accuracy:  0.619, Loss:  0.852
+Epoch   0 Batch  175/269 - Train Accuracy:  0.644, Validation Accuracy:  0.662, Loss:  0.744
+Epoch   0 Batch  200/269 - Train Accuracy:  0.680, Validation Accuracy:  0.698, Loss:  0.662
+Epoch   0 Batch  225/269 - Train Accuracy:  0.718, Validation Accuracy:  0.722, Loss:  0.555
+Epoch   0 Batch  250/269 - Train Accuracy:  0.738, Validation Accuracy:  0.744, Loss:  0.488
+Epoch   1 Batch    0/269 - Train Accuracy:  0.767, Validation Accuracy:  0.756, Loss:  0.472
+Epoch   1 Batch   25/269 - Train Accuracy:  0.753, Validation Accuracy:  0.777, Loss:  0.422
+Epoch   1 Batch   50/269 - Train Accuracy:  0.776, Validation Accuracy:  0.780, Loss:  0.381
+Epoch   1 Batch   75/269 - Train Accuracy:  0.823, Validation Accuracy:  0.815, Loss:  0.320
+Epoch   1 Batch  100/269 - Train Accuracy:  0.854, Validation Accuracy:  0.837, Loss:  0.275
+Epoch   1 Batch  125/269 - Train Accuracy:  0.883, Validation Accuracy:  0.854, Loss:  0.235
+Epoch   1 Batch  150/269 - Train Accuracy:  0.874, Validation Accuracy:  0.877, Loss:  0.205
+Epoch   1 Batch  175/269 - Train Accuracy:  0.868, Validation Accuracy:  0.881, Loss:  0.191
+Epoch   1 Batch  200/269 - Train Accuracy:  0.900, Validation Accuracy:  0.888, Loss:  0.155
+Epoch   1 Batch  225/269 - Train Accuracy:  0.908, Validation Accuracy:  0.912, Loss:  0.134
+Epoch   1 Batch  250/269 - Train Accuracy:  0.929, Validation Accuracy:  0.918, Loss:  0.119
+Epoch   2 Batch    0/269 - Train Accuracy:  0.934, Validation Accuracy:  0.931, Loss:  0.115
+Epoch   2 Batch   25/269 - Train Accuracy:  0.931, Validation Accuracy:  0.925, Loss:  0.104
+Epoch   2 Batch   50/269 - Train Accuracy:  0.921, Validation Accuracy:  0.931, Loss:  0.097
+Epoch   2 Batch   75/269 - Train Accuracy:  0.930, Validation Accuracy:  0.934, Loss:  0.083
+Epoch   2 Batch  100/269 - Train Accuracy:  0.937, Validation Accuracy:  0.934, Loss:  0.072
+Epoch   2 Batch  125/269 - Train Accuracy:  0.937, Validation Accuracy:  0.940, Loss:  0.064
+Epoch   2 Batch  150/269 - Train Accuracy:  0.951, Validation Accuracy:  0.940, Loss:  0.067
+Epoch   2 Batch  175/269 - Train Accuracy:  0.924, Validation Accuracy:  0.942, Loss:  0.077
+Epoch   2 Batch  200/269 - Train Accuracy:  0.955, Validation Accuracy:  0.952, Loss:  0.056
+Epoch   2 Batch  225/269 - Train Accuracy:  0.939, Validation Accuracy:  0.950, Loss:  0.052
+Epoch   2 Batch  250/269 - Train Accuracy:  0.949, Validation Accuracy:  0.938, Loss:  0.054
+Epoch   3 Batch    0/269 - Train Accuracy:  0.960, Validation Accuracy:  0.959, Loss:  0.054
+Epoch   3 Batch   25/269 - Train Accuracy:  0.960, Validation Accuracy:  0.951, Loss:  0.055
+Epoch   3 Batch   50/269 - Train Accuracy:  0.941, Validation Accuracy:  0.953, Loss:  0.058
+Epoch   3 Batch   75/269 - Train Accuracy:  0.953, Validation Accuracy:  0.953, Loss:  0.050
+Epoch   3 Batch  100/269 - Train Accuracy:  0.960, Validation Accuracy:  0.946, Loss:  0.044
+Epoch   3 Batch  125/269 - Train Accuracy:  0.953, Validation Accuracy:  0.950, Loss:  0.036
+Epoch   3 Batch  150/269 - Train Accuracy:  0.966, Validation Accuracy:  0.961, Loss:  0.043
+Epoch   3 Batch  175/269 - Train Accuracy:  0.957, Validation Accuracy:  0.963, Loss:  0.052
+Epoch   3 Batch  200/269 - Train Accuracy:  0.974, Validation Accuracy:  0.957, Loss:  0.036
+Epoch   3 Batch  225/269 - Train Accuracy:  0.961, Validation Accuracy:  0.963, Loss:  0.036
+Epoch   3 Batch  250/269 - Train Accuracy:  0.951, Validation Accuracy:  0.955, Loss:  0.036
+Epoch   3 Batch  267/269 - Train Accuracy:  0.967, Validation Accuracy:  0.963, Loss:  0.038
 Model Trained and Saved
 </pre>
 </div>
@@ -12941,8 +12952,8 @@ Model Trained and Saved
   English Words: [&#39;he&#39;, &#39;saw&#39;, &#39;a&#39;, &#39;old&#39;, &#39;yellow&#39;, &#39;truck&#39;, &#39;.&#39;]
 
 Prediction
-  Word Ids:      [355, 27, 206, 347, 115, 154, 217, 240, 1]
-  French Words: [&#39;il&#39;, &#39;a&#39;, &#39;vu&#39;, &#39;un&#39;, &#39;vieux&#39;, &#39;camion&#39;, &#39;jaune&#39;, &#39;.&#39;, &#39;&lt;EOS&gt;&#39;]
+  Word Ids:      [355, 27, 206, 347, 115, 154, 24, 240, 1]
+  French Words: [&#39;il&#39;, &#39;a&#39;, &#39;vu&#39;, &#39;un&#39;, &#39;vieux&#39;, &#39;camion&#39;, &#39;rouge&#39;, &#39;.&#39;, &#39;&lt;EOS&gt;&#39;]
 </pre>
 </div>
 </div>
